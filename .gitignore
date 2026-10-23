@@ -218,3 +218,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local SQLite databases
+*.sqlite
+*.sqlite3
+*.db
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Node & Frontend
+node_modules/
+dashboard/node_modules/
+dashboard/dist/
+dist/
+.eslintcache
+
+# Logs
+logs/
+*.log
