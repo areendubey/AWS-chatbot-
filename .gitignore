@@ -218,3 +218,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Security & Environment
+.env
+.env.*
+!.env.example
+
+# Local Databases & Vector Storage
+*.db
+*.sqlite
+*.sqlite3
+/data/vector_storage/
+qdrant_data/
+/embeddings_cache/
+
+# Virtual Environments
+.venv/
+env/
+
